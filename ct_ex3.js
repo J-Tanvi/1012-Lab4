@@ -2,7 +2,7 @@ function roots() {
     
     var a = document.getElementById("a").value;
     var b = document.getElementById("b").value;
-    var c = document.getElementById("c").value
+    var c = document.getElementById("c").value;
     a = parseInt(a);
     b = parseInt(b);
     c = parseInt(c);

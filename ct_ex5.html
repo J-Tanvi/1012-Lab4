@@ -7,22 +7,20 @@
 		<meta charset="UTF-8">
 		<title> EECS1012: Lab 4 - Computational Thinking </title>
 		<link rel="stylesheet" type="text/css" href="ct.css" title="style" /> 
-		<script src = "ct_ex4.js"></script>
+		<script src = "ct_ex5.js"></script>
 	</head>
 	<body>
 		<header>
-			<h1>Mapping a Number onto a Month</h1>
+			<h1>Fahrenheit to Celcius Conversion</h1>
 		</header>
 		<div class="column">
-			<!--in Ex 5, you will need two inputs, one of which will be for type "text"
-				Allow the min and max values for the numeric input to range from -300 to 300. 
-				Set the maximum length of the text input to 1 (a single character).
-			-->
 			<div class="input">
-				Number of Month: <input id="a" type="number" min="1" max="12"/>
+				Temperature: <input id="a" type="number" min="-300" max="300"/>
+				<p></p>
+				units (C or F): <input id = "b" type = "text" maxlength="1"/>
 			</div>
 			<div class="input">
-				<button type = "button" onclick = "month()"> Enter </button>
+				<button type = "button" onclick = "convert()"> Enter </button>
 			</div>
 			<strong><p id="output"></p></strong>
 		</div>
